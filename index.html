@@ -16,29 +16,25 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
+  <link href="css/resume.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Pedro Damian Guillen Garza</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
-      </span>
+      <span class="brand-name">Pedro</span><span class="brand-suffix">.dev</span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
@@ -64,174 +60,204 @@
     </div>
   </nav>
 
+  <section id="hero">
+    <div class="hero-bg-glow glow-primary"></div>
+    <div class="hero-bg-glow glow-accent"></div>
+    <div class="hero-ring ring-1"></div>
+    <div class="hero-ring ring-2"></div>
+
+    <div class="container hero-inner">
+      <div class="row align-items-center">
+        <div class="col-lg-7 text-center text-lg-left">
+          <h1 class="mb-2">Pedro <span class="gradient-text">Guillen</span></h1>
+          <div class="subheading mb-4">Minneapolis MN 55419 · (972) 774-8557 ·
+            <a href="mailto:pedro3087@gmail.com">pedro3087@gmail.com</a>
+          </div>
+          <div class="d-flex flex-column flex-sm-row justify-content-center justify-content-lg-start mb-4">
+            <a href="#experience" class="btn btn-primary btn-lg mr-sm-3 mb-3 mb-sm-0 js-scroll-trigger">
+              <i class="fas fa-briefcase mr-2"></i>View Experience
+            </a>
+            <a href="#blog" class="btn btn-outline-primary btn-lg js-scroll-trigger">
+              <i class="fas fa-book-open mr-2"></i>Read the Blog
+            </a>
+          </div>
+          <div class="social-icons justify-content-center justify-content-lg-start d-flex">
+            <a href="https://www.linkedin.com/in/pguillen">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.salesforce.com/trailblazer/pedrodamianguillengarza">
+              <i class="fab fa-salesforce"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-5 mt-5 mt-lg-0">
+          <div class="hero-photo-wrap">
+            <div class="hero-photo-glow"></div>
+            <img class="hero-photo" src="img/profile.jpg" alt="Pedro Guillen">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <div class="container-fluid p-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+    <section class="resume-section p-3 p-lg-5" id="about">
       <div class="w-100">
-        <h1 class="mb-0">Pedro 
-          <span class="text-primary">Guillen</span>
-        </h1>
-        <div class="subheading mb-5">Minneapolis MN 55419 · (972) 774-8557 ·
-          <a href="mailto:name@email.com">pedro3087@gmail.com</a>
-        </div>
-        <div class="subheading mb-1">Programming Languages &amp; Tools</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-            <i class="fab fa-java"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-selenium"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-aws"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-jira"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-slack"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-google"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-salesforce"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fas fa-robot"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fas fa-cogs"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fas fa-network-wired"></i>
-          </li>
-        </ul>
+        <h2 class="mb-5">About</h2>
 
-        
-        <p class="lead mb-5">Experienced Test Automation Architect and Manager with 8+ years of leadership experience in designing and implementing comprehensive test automation frameworks. Specialized in API, Mobile, and Web Automation Testing with expertise in Java-based frameworks and CI/CD integration.
-         Key Experience & Achievements:
-          • Test Automation Architect - Manager (December 2021 - Present) in Greater Minneapolis-St. Paul Area
-          • Experience creating frameworks for test automation on Java using Selenium WebDriver (TestNG-JUnit / Maven-Gradle)
-          • Participated actively in projects creating/adapting frameworks with Selenium WebDriver - Java, Rest Assured -Java, Appium, SoapUI - ReadyAPI, HP Tools - QTP/UFT - QC, Worksoft Certify
-          • Coordinate and implement new standards and guidelines of automation testing working as a QA Automation Manager inside the Dev Project
-          • Experience in Automation Testing for API Testing (SOAP/REST), Web and Mobile applications in Agile environment (Scrum/Kanban)
-          • Knowledge of developing a full continuous deployment - continuous testing for continuous integration using automation testing frameworks integrated with Jenkins/Bamboo
-          • Proficient in writing easy-to-reproduce bug reports and monitoring their status until resolution, knowledge of bug tracking tools
-          • Trainer and Mentor of Test Automation tools/frameworks to Client/Accenture resources</p>
-          
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/pguillen">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://www.salesforce.com/trailblazer/pedrodamianguillengarza">
-            <i class="fab fa-salesforce"></i>
-          </a>
+        <div class="bento-item">
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="list-inline dev-icons">
+            <li class="list-inline-item">
+              <i class="fab fa-java"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-selenium"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-js-square"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-angular"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-node-js"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-aws"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-jira"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-slack"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-google"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-salesforce"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fas fa-robot"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fas fa-cogs"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fas fa-network-wired"></i>
+            </li>
+          </ul>
+
+          <p class="lead mb-0 mt-4">Experienced Test Automation Architect and Manager with 8+ years of leadership experience in designing and implementing comprehensive test automation frameworks. Specialized in API, Mobile, and Web Automation Testing with expertise in Java-based frameworks and CI/CD integration.
+           Key Experience & Achievements:
+            • Test Automation Architect - Manager (December 2021 - Present) in Greater Minneapolis-St. Paul Area
+            • Experience creating frameworks for test automation on Java using Selenium WebDriver (TestNG-JUnit / Maven-Gradle)
+            • Participated actively in projects creating/adapting frameworks with Selenium WebDriver - Java, Rest Assured -Java, Appium, SoapUI - ReadyAPI, HP Tools - QTP/UFT - QC, Worksoft Certify
+            • Coordinate and implement new standards and guidelines of automation testing working as a QA Automation Manager inside the Dev Project
+            • Experience in Automation Testing for API Testing (SOAP/REST), Web and Mobile applications in Agile environment (Scrum/Kanban)
+            • Knowledge of developing a full continuous deployment - continuous testing for continuous integration using automation testing frameworks integrated with Jenkins/Bamboo
+            • Proficient in writing easy-to-reproduce bug reports and monitoring their status until resolution, knowledge of bug tracking tools
+            • Trainer and Mentor of Test Automation tools/frameworks to Client/Accenture resources</p>
         </div>
       </div>
     </section>
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+    <section class="resume-section p-3 p-lg-5" id="experience">
       <div class="w-100">
         <h2 class="mb-5">Experience</h2>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Test Automation Architect - Manager</h3>
-            <div class="subheading mb-3">Greater Minneapolis-St. Paul Area</div>
-            <p>• Assess the Application & IT landscape<br>
-            • Identify test automation & optimization opportunities<br>
-            • Define Automation plan and road map for the Client<br>
-            • Create Automation solutions & Quantify Automation savings & benefits to Client<br>
-            • Design Automation Assets<br>
-            • Lead complex implementation at scope<br>
-            • Expert in conceptualizing and implementing automation<br>
-            • Practice and demonstrate automation approaches in order to establish highly productive delivery system</p>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="bento-item">
+              <h3 class="mb-0">Test Automation Architect - Manager</h3>
+              <div class="subheading mb-3">Greater Minneapolis-St. Paul Area</div>
+              <div class="resume-date mb-3">
+                <span class="text-primary">December 2021 - Present</span>
+              </div>
+              <p class="mb-0">• Assess the Application & IT landscape<br>
+              • Identify test automation & optimization opportunities<br>
+              • Define Automation plan and road map for the Client<br>
+              • Create Automation solutions & Quantify Automation savings & benefits to Client<br>
+              • Design Automation Assets<br>
+              • Lead complex implementation at scope<br>
+              • Expert in conceptualizing and implementing automation<br>
+              • Practice and demonstrate automation approaches in order to establish highly productive delivery system</p>
+            </div>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">December 2021 - Present</span>
-          </div>
-        </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Test Automation Architect Associate Manager</h3>
-            <div class="subheading mb-3">Greater Minneapolis-St. Paul Area</div>
-            <p>• Assess the Application & IT landscape<br>
-            • Identify test automation & optimization opportunities<br>
-            • Define Automation plan and road map for the Client<br>
-            • Create Automation solutions & Quantify Automation savings & benefits to Client<br>
-            • Design Automation Assets<br>
-            • Lead complex implementation at scope<br>
-            • Expert in conceptualizing and implementing automation<br>
-            • Practice and demonstrate automation approaches in order to establish highly productive delivery system</p>
+          <div class="timeline-item">
+            <div class="bento-item">
+              <h3 class="mb-0">Test Automation Architect Associate Manager</h3>
+              <div class="subheading mb-3">Greater Minneapolis-St. Paul Area</div>
+              <div class="resume-date mb-3">
+                <span class="text-primary">December 2018 - December 2021</span>
+              </div>
+              <p class="mb-0">• Assess the Application & IT landscape<br>
+              • Identify test automation & optimization opportunities<br>
+              • Define Automation plan and road map for the Client<br>
+              • Create Automation solutions & Quantify Automation savings & benefits to Client<br>
+              • Design Automation Assets<br>
+              • Lead complex implementation at scope<br>
+              • Expert in conceptualizing and implementing automation<br>
+              • Practice and demonstrate automation approaches in order to establish highly productive delivery system</p>
+            </div>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">December 2018 - December 2021</span>
-          </div>
-        </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Lead Software QA Test Automation Engineer</h3>
-            <div class="subheading mb-3">Greater Minneapolis-St. Paul Area</div>
-            <p>• Working in extreme Agile/Scrum environment (Full Stack) - Agile Team Organization: Squads<br>
-            • Participate in sprint planning, grooming, task prioritization, build user stories, and backup Scrum Master<br>
-            • Creating test documentation including test plan, test cases, setup process for QA environment, bug report, construction and testing procedures with the use of VersionOne in Agile/Scrum environment<br>
-            • Creating test automation strategy & test plan for the Web services APIs SOAP/REST-based on DDT approach<br>
-            • Analyze/Approve test scenarios for smoke and regression suites against the API Layer and the Front-End application<br>
-            • Implement Version Control for test automation on API and UI Testing (Bitbucket, SourceTree)<br>
-            • Creation and Review of test scripts created by the members of the team using Ready API tool<br>
-            • Creating test automation & test plan for the front-end automation testing<br>
-            • Writing/Editing/Reviewing test automation scripts using Selenium with DDT approach (Java)<br>
-            • Writing/Editing/Reviewing test automation BDD feature files created using Cucumber/Gherkins<br>
-            • Established QA Automation metrics and tracking using Extend Reports libraries on Selenium based framework<br>
-            • Analysis of Open shift logs, API logs in real time for triaging issues - OpenShift / Kibana application<br>
-            • Testing manually delivered push notifications and API calls by utilizing Postman<br>
-            • Performing build acceptance reports test for every new build and deployment into the different phases/ environments (APT-IPT)<br>
-            • Performing regression testing on fixed bugs/defects for each release cycle<br>
-            • Design-Creation and Implementation of Framework for Angular applications with the use of Protractor libraries for Continuous Testing at the Test Integration Phase - UI Automated Tests (Jenkins)<br>
-            • Analysis of Splunk logs, UI and backend logs in real time for triaging issues<br>
-            • Effectively involved in Defects logging, tracking and managing Defect Life Cycles using VersionOne and JIRA</p>
+          <div class="timeline-item">
+            <div class="bento-item">
+              <h3 class="mb-0">Lead Software QA Test Automation Engineer</h3>
+              <div class="subheading mb-3">Greater Minneapolis-St. Paul Area</div>
+              <div class="resume-date mb-3">
+                <span class="text-primary">June 2017 - December 2018</span>
+              </div>
+              <p class="mb-0">• Working in extreme Agile/Scrum environment (Full Stack) - Agile Team Organization: Squads<br>
+              • Participate in sprint planning, grooming, task prioritization, build user stories, and backup Scrum Master<br>
+              • Creating test documentation including test plan, test cases, setup process for QA environment, bug report, construction and testing procedures with the use of VersionOne in Agile/Scrum environment<br>
+              • Creating test automation strategy & test plan for the Web services APIs SOAP/REST-based on DDT approach<br>
+              • Analyze/Approve test scenarios for smoke and regression suites against the API Layer and the Front-End application<br>
+              • Implement Version Control for test automation on API and UI Testing (Bitbucket, SourceTree)<br>
+              • Creation and Review of test scripts created by the members of the team using Ready API tool<br>
+              • Creating test automation & test plan for the front-end automation testing<br>
+              • Writing/Editing/Reviewing test automation scripts using Selenium with DDT approach (Java)<br>
+              • Writing/Editing/Reviewing test automation BDD feature files created using Cucumber/Gherkins<br>
+              • Established QA Automation metrics and tracking using Extend Reports libraries on Selenium based framework<br>
+              • Analysis of Open shift logs, API logs in real time for triaging issues - OpenShift / Kibana application<br>
+              • Testing manually delivered push notifications and API calls by utilizing Postman<br>
+              • Performing build acceptance reports test for every new build and deployment into the different phases/ environments (APT-IPT)<br>
+              • Performing regression testing on fixed bugs/defects for each release cycle<br>
+              • Design-Creation and Implementation of Framework for Angular applications with the use of Protractor libraries for Continuous Testing at the Test Integration Phase - UI Automated Tests (Jenkins)<br>
+              • Analysis of Splunk logs, UI and backend logs in real time for triaging issues<br>
+              • Effectively involved in Defects logging, tracking and managing Defect Life Cycles using VersionOne and JIRA</p>
+            </div>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">June 2017 - December 2018</span>
-          </div>
-        </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Senior Software QA Engineer</h3>
-            <div class="subheading mb-3">Accenture - Austin, Texas</div>
-            <p>• Create test automation designs and road maps for QA Processes<br>
-            • Implement Automation Framework based on Selenium Webdriver libraries with the integration of CI/CD tools such as Jenkins<br>
-            • Introduce a TDD Framework based on a TESTNG Framework for UI Automation Testing<br>
-            • Establish an automation test suite for Mobile testing against different devices with Appium and SourceLabs<br>
-            • Implementation of a version control system for the automated test cases with SVN Tool<br>
-            • Test and support innovative tools and applications on a wide range of platforms including iOS, Android and others<br>
-            • Engineer customer-focused creating test strategies and plans encompassing a suite of automated reliable test cases, determining where to use automated testing approaches<br>
-            • Create test automation designs and road maps for QA Processes<br>
-            • Working directly with business analysts, software engineers and product owners to understand customer needs, in order to implement and test high value features<br>
-            • Enhance and create existing application testing infrastructure doing research and develop skills in new technologies<br>
-            • Track defects to closure and keep defect repository up-to-date (Rally)<br>
-            • Lead, mentor and help up-skill junior members of the automation team</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">December 2014 - March 2017</span>
+          <div class="timeline-item">
+            <div class="bento-item">
+              <h3 class="mb-0">Senior Software QA Engineer</h3>
+              <div class="subheading mb-3">Accenture - Austin, Texas</div>
+              <div class="resume-date mb-3">
+                <span class="text-primary">December 2014 - March 2017</span>
+              </div>
+              <p class="mb-0">• Create test automation designs and road maps for QA Processes<br>
+              • Implement Automation Framework based on Selenium Webdriver libraries with the integration of CI/CD tools such as Jenkins<br>
+              • Introduce a TDD Framework based on a TESTNG Framework for UI Automation Testing<br>
+              • Establish an automation test suite for Mobile testing against different devices with Appium and SourceLabs<br>
+              • Implementation of a version control system for the automated test cases with SVN Tool<br>
+              • Test and support innovative tools and applications on a wide range of platforms including iOS, Android and others<br>
+              • Engineer customer-focused creating test strategies and plans encompassing a suite of automated reliable test cases, determining where to use automated testing approaches<br>
+              • Create test automation designs and road maps for QA Processes<br>
+              • Working directly with business analysts, software engineers and product owners to understand customer needs, in order to implement and test high value features<br>
+              • Enhance and create existing application testing infrastructure doing research and develop skills in new technologies<br>
+              • Track defects to closure and keep defect repository up-to-date (Rally)<br>
+              • Lead, mentor and help up-skill junior members of the automation team</p>
+            </div>
           </div>
         </div>
 
@@ -241,195 +267,226 @@
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+    <section class="resume-section p-3 p-lg-5 section-alt" id="education">
       <div class="w-100">
         <h2 class="mb-5">Education</h2>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">University of the Andes</h3>
-            <div class="subheading mb-3">Master of Engineering - MEng, Computer Software Engineering</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2021 - 2022</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Universidad Tecmilenio</h3>
-            <div class="subheading mb-3">Master's degree, Business Administration and Management, General</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2016 - 2018</span>
+        <div class="bento-item mb-4">
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="resume-content">
+              <h3 class="mb-0">University of the Andes</h3>
+              <div class="subheading mb-0">Master of Engineering - MEng, Computer Software Engineering</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2021 - 2022</span>
+            </div>
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Universidad Autónoma de Coahuila</h3>
-            <div class="subheading mb-3">Engineer's degree, Computer Technology/Computer Systems Technology</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2005 - 2010</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Southwestern Illinois College</h3>
-            <div class="subheading mb-3">English, Adult High School/Secondary Diploma Program</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2008 - 2008</span>
+        <div class="bento-item mb-4">
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="resume-content">
+              <h3 class="mb-0">Universidad Tecmilenio</h3>
+              <div class="subheading mb-0">Master's degree, Business Administration and Management, General</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2016 - 2018</span>
+            </div>
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">CERTIFICATIONS - DIPLOMAS</h3>
+        <div class="bento-item mb-4">
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="resume-content">
+              <h3 class="mb-0">Universidad Autónoma de Coahuila</h3>
+              <div class="subheading mb-0">Engineer's degree, Computer Technology/Computer Systems Technology</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2005 - 2010</span>
+            </div>
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
-          <div class="resume-content">
-            <h3 class="mb-0">ISTQB</h3>
-            <div class="subheading mb-3">ISTQB Certified Tester Foundation Level</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2017</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
-          <div class="resume-content">
-            <h3 class="mb-0">SAP</h3>
-            <div class="subheading mb-3">SAP Sales and Distribution</div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2014</span>
+        <div class="bento-item mb-4">
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="resume-content">
+              <h3 class="mb-0">Southwestern Illinois College</h3>
+              <div class="subheading mb-0">English, Adult High School/Secondary Diploma Program</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2008 - 2008</span>
+            </div>
           </div>
         </div>
 
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
-          <div class="resume-content">
-            <h3 class="mb-0">Scrum Alliance</h3>
-            <div class="subheading mb-3">Scrum Master</div>
+        <h3 class="mt-5 mb-4">Certifications - Diplomas</h3>
+
+        <div class="bento-item mb-3">
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="resume-content">
+              <h3 class="mb-0">ISTQB</h3>
+              <div class="subheading mb-0">ISTQB Certified Tester Foundation Level</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2017</span>
+            </div>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">2015</span>
+        </div>
+
+        <div class="bento-item mb-3">
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="resume-content">
+              <h3 class="mb-0">SAP</h3>
+              <div class="subheading mb-0">SAP Sales and Distribution</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2014</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bento-item mb-3">
+          <div class="d-flex flex-column flex-md-row justify-content-between">
+            <div class="resume-content">
+              <h3 class="mb-0">Scrum Alliance</h3>
+              <div class="subheading mb-0">Scrum Master</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">2015</span>
+            </div>
           </div>
         </div>
 
       </div>
-  
+
 
     </section>
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+    <section class="resume-section p-3 p-lg-5" id="skills">
       <div class="w-100">
         <h2 class="mb-5">Skills</h2>
 
+        <div class="row">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="bento-item h-100">
+              <div class="subheading mb-3">Technical Skills</div>
+              <div class="tech-card mb-2">
+                <i class="fas fa-check"></i>
+                <span>API Testing</span>
+              </div>
+              <div class="tech-card mb-2">
+                <i class="fas fa-check"></i>
+                <span>Test Automation Frameworks</span>
+              </div>
+              <div class="tech-card mb-2">
+                <i class="fas fa-check"></i>
+                <span>NLU (Natural Language Understanding)</span>
+              </div>
+              <div class="tech-card mb-2">
+                <i class="fas fa-check"></i>
+                <span>Selenium WebDriver & TestNG</span>
+              </div>
+              <div class="tech-card mb-2">
+                <i class="fas fa-check"></i>
+                <span>Java Programming</span>
+              </div>
+              <div class="tech-card mb-2">
+                <i class="fas fa-check"></i>
+                <span>CI/CD Integration (Jenkins)</span>
+              </div>
+              <div class="tech-card mb-2">
+                <i class="fas fa-check"></i>
+                <span>Mobile Testing (Appium)</span>
+              </div>
+              <div class="tech-card mb-2">
+                <i class="fas fa-check"></i>
+                <span>REST/SOAP API Testing</span>
+              </div>
+              <div class="tech-card mb-2">
+                <i class="fas fa-check"></i>
+                <span>Agile Development & Scrum</span>
+              </div>
+              <div class="tech-card mb-0">
+                <i class="fas fa-check"></i>
+                <span>Cross Functional Teams</span>
+              </div>
+            </div>
+          </div>
 
-
-        <div class="subheading mb-3">Technical Skills</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            API Testing</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Test Automation Frameworks</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            NLU (Natural Language Understanding)</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Selenium WebDriver & TestNG</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Java Programming</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            CI/CD Integration (Jenkins)</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Mobile Testing (Appium)</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            REST/SOAP API Testing</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Agile Development & Scrum</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
-        </ul>
-
-        <div class="subheading mb-3 mt-4">Languages</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Spanish (Native or Bilingual)</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            English (Full Professional)</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Portuguese (Limited Working)</li>
-        </ul>
+          <div class="col-lg-6">
+            <div class="bento-item h-100">
+              <div class="subheading mb-3">Languages</div>
+              <div class="tech-card mb-2">
+                <i class="fas fa-check"></i>
+                <span>Spanish (Native or Bilingual)</span>
+              </div>
+              <div class="tech-card mb-2">
+                <i class="fas fa-check"></i>
+                <span>English (Full Professional)</span>
+              </div>
+              <div class="tech-card mb-0">
+                <i class="fas fa-check"></i>
+                <span>Portuguese (Limited Working)</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+    <section class="resume-section p-3 p-lg-5 section-alt" id="interests">
       <div class="w-100">
         <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a Test Automation Architect and Manager, I am passionate about advancing the field of Quality Assurance through innovative automation solutions. I specialize in QA Automation & AI Quality Engineering, with a particular focus on Agentic AI applications in testing frameworks.</p>
-        <p class="mb-0">I enjoy exploring the latest advancements in artificial intelligence and machine learning as they apply to test automation, and I spend considerable time researching and implementing cutting-edge automation frameworks that leverage AI capabilities to improve testing efficiency and accuracy.</p>
+        <div class="bento-item">
+          <p>Apart from being a Test Automation Architect and Manager, I am passionate about advancing the field of Quality Assurance through innovative automation solutions. I specialize in QA Automation & AI Quality Engineering, with a particular focus on Agentic AI applications in testing frameworks.</p>
+          <p class="mb-0">I enjoy exploring the latest advancements in artificial intelligence and machine learning as they apply to test automation, and I spend considerable time researching and implementing cutting-edge automation frameworks that leverage AI capabilities to improve testing efficiency and accuracy.</p>
+        </div>
       </div>
     </section>
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+    <section class="resume-section p-3 p-lg-5" id="awards">
       <div class="w-100">
         <h2 class="mb-5">Awards &amp; Certifications</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            ISTQB Certified Tester Foundation Level</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            SAP Sales and Distribution Certification</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Scrum Master Certification</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Quarter 1 2012 - STAR Award</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            QA Engineer of the month [Oct 2012]</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            MVPA (Most Valuable Performer Award)</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            SIGNIFICANT ABOVE Performance</li>
-        </ul>
+        <div class="bento-item">
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              ISTQB Certified Tester Foundation Level</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              SAP Sales and Distribution Certification</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Scrum Master Certification</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Quarter 1 2012 - STAR Award</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              QA Engineer of the month [Oct 2012]</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              MVPA (Most Valuable Performer Award)</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              SIGNIFICANT ABOVE Performance</li>
+          </ul>
+        </div>
       </div>
     </section>
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="blog">
+    <section class="resume-section p-3 p-lg-5 section-alt" id="blog">
       <div class="w-100">
         <h2 class="mb-5">Blog</h2>
-        
+
         <div class="row">
           {% for post in site.posts %}
           <div class="col-lg-6 mb-4">
@@ -465,6 +522,31 @@
 
   </div>
 
+  <footer id="siteFooter">
+    <div class="footer-inner">
+      <div>
+        <p class="footer-name">Pedro Guillen</p>
+        <p class="footer-title mb-0">Test Automation Architect - Manager</p>
+      </div>
+
+      <div class="social-icons d-flex">
+        <a href="https://www.linkedin.com/in/pguillen">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.salesforce.com/trailblazer/pedrodamianguillengarza">
+          <i class="fab fa-salesforce"></i>
+        </a>
+      </div>
+
+      <div class="d-flex flex-column align-items-center align-items-md-end">
+        <a href="#page-top" class="back-to-top js-scroll-trigger">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+        <p class="footer-copyright">© <span id="footerYear"></span> Pedro Guillen. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -473,19 +555,19 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
+  <script src="js/resume.js"></script>
 
   <!-- Blog functionality script -->
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       // Handle read more/less functionality
       const readMoreButtons = document.querySelectorAll('.read-more-btn');
-      
+
       readMoreButtons.forEach(button => {
         button.addEventListener('click', function() {
           const targetId = this.getAttribute('data-target');
           const expandedContent = this.parentElement.querySelector('.expanded-content');
-          
+
           if (expandedContent.style.display === 'none' || expandedContent.style.display === '') {
             expandedContent.style.display = 'block';
             this.textContent = 'Read Less';
@@ -501,58 +583,6 @@
       });
     });
   </script>
-
-  <!-- Code highlighting styles -->
-  <style>
-    pre {
-      background-color: #f8f9fa;
-      border: 1px solid #e9ecef;
-      border-radius: 0.375rem;
-      padding: 1rem;
-      margin: 1rem 0;
-      overflow-x: auto;
-      font-family: 'Courier New', monospace;
-      font-size: 0.875rem;
-      line-height: 1.4;
-    }
-    
-    code {
-      background-color: #f8f9fa;
-      padding: 0.2rem 0.4rem;
-      border-radius: 0.25rem;
-      font-family: 'Courier New', monospace;
-      font-size: 0.875rem;
-    }
-    
-    pre code {
-      background-color: transparent;
-      padding: 0;
-    }
-    
-    .expanded-content {
-      margin-top: 1rem;
-      padding-top: 1rem;
-      border-top: 1px solid #e9ecef;
-    }
-    
-    .expanded-content h5 {
-      color: #495057;
-      margin-top: 1.5rem;
-      margin-bottom: 0.5rem;
-    }
-    
-    .expanded-content h5:first-child {
-      margin-top: 0;
-    }
-    
-    .expanded-content ul {
-      margin-bottom: 1rem;
-    }
-    
-    .expanded-content li {
-      margin-bottom: 0.25rem;
-    }
-  </style>
 
 </body>
 

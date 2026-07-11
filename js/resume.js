@@ -22,7 +22,21 @@
 
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
-    target: '#sideNav'
+    target: '#mainNav'
   });
+
+  // Toggle a blurred/bordered background on the fixed nav once scrolled
+  var $mainNav = $('#mainNav');
+  function toggleNavScrolled() {
+    $mainNav.toggleClass('nav-scrolled', $(window).scrollTop() > 50);
+  }
+  $(window).on('scroll', toggleNavScrolled);
+  toggleNavScrolled();
+
+  // Keep the footer copyright year current without a build step
+  var $footerYear = $('#footerYear');
+  if ($footerYear.length) {
+    $footerYear.text(new Date().getFullYear());
+  }
 
 })(jQuery); // End of use strict
