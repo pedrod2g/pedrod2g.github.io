@@ -1,6 +1,6 @@
 ---
 title: "Contract Testing with Pact: Catching Breaking API Changes Before Deploy"
-date: 0000-00-00
+date: 2026-07-11
 summary: "Integration tests that spin up every downstream service catch real bugs, but they're slow and fragile. Consumer-driven contract testing catches the same class of breakage — without ever running the provider's code in your CI pipeline."
 tags: [Contract Testing, Pact, API Testing, CI/CD]
 ---
