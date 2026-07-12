@@ -1,6 +1,6 @@
 ---
 title: "Performance Testing as Code: Load Testing with k6 in CI"
-date: 0000-00-00
+date: 2026-07-12
 summary: "Performance testing used to mean a specialist with a separate tool running load tests by hand before a big launch. Treating load tests as code that lives in the repo and runs in CI catches regressions the same week they're introduced, not the week before launch."
 tags: [Performance Testing, k6, Load Testing, CI/CD]
 ---
