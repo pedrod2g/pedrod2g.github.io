@@ -1,6 +1,6 @@
 ---
 title: "Testing Feature Flags: Strategies for Flag-Gated Releases"
-date: 0000-00-00
+date: 2026-07-13
 summary: "Feature flags decouple deploy from release, which is great for shipping safely — until your test suite has no idea which combination of flags it's supposed to be testing. Untested flag states are where a surprising number of production incidents actually live."
 tags: [Feature Flags, Test Strategy, Release Engineering]
 ---
