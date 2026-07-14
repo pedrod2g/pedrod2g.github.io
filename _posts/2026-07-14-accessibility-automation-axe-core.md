@@ -1,6 +1,6 @@
 ---
 title: "Accessibility Automation: Wiring axe-core into Your CI Pipeline"
-date: 0000-00-00
+date: 2026-07-14
 summary: "Automated accessibility scanning won't catch everything a screen-reader user would — but it catches the majority of issues that ship purely because no one was checking, and it catches them on every PR instead of during an annual manual audit."
 tags: [Accessibility, axe-core, CI/CD, Test Automation]
 ---
