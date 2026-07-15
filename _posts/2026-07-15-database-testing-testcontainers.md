@@ -1,6 +1,6 @@
 ---
 title: "Database Testing with Testcontainers: Real Databases, Disposable State"
-date: 0000-00-00
+date: 2026-07-15
 summary: "Mocking the database layer means your tests never exercise real SQL, real constraints, or real transaction behavior. Testcontainers makes running an actual, disposable Postgres instance in CI cheap enough that there's no longer a good reason to fake it."
 tags: [Testcontainers, Database Testing, Integration Testing, Java]
 ---
