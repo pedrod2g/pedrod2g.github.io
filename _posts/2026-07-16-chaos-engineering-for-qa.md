@@ -1,6 +1,6 @@
 ---
 title: "Chaos Engineering for QA: Injecting Failure on Purpose"
-date: 0000-00-00
+date: 2026-07-16
 summary: "Most test suites only verify the happy path plus a handful of anticipated error cases. Chaos engineering flips the question: instead of guessing what might fail, deliberately break something real and see whether the system — and the team — responds the way the runbook says it will."
 tags: [Chaos Engineering, Resilience Testing, SRE, Test Strategy]
 ---
