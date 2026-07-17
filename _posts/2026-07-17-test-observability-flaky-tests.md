@@ -1,6 +1,6 @@
 ---
 title: "Test Observability: Correlating Flaky Tests with Production Traces"
-date: 0000-00-00
+date: 2026-07-17
 summary: "A flaky test is usually treated as a test problem — add a retry, increase a timeout, move on. Sometimes it's actually an early warning about a race condition that exists in production too, and the only way to tell the difference is to look at the trace, not just the assertion."
 tags: [Test Observability, Flaky Tests, OpenTelemetry, Test Strategy]
 ---
