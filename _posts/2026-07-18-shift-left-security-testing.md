@@ -1,6 +1,6 @@
 ---
 title: "Shift-Left Security Testing: SAST and DAST in the PR Pipeline"
-date: 0000-00-00
+date: 2026-07-18
 summary: "A security scan that runs once a quarter finds vulnerabilities that have been in production for months. Running static and dynamic analysis on every pull request turns 'we'll fix it in the next audit' into 'the PR won't merge until it's fixed' — a much shorter feedback loop for the same class of bugs."
 tags: [Security Testing, SAST, DAST, Shift-Left, CI/CD]
 ---
