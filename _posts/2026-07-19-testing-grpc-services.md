@@ -1,6 +1,6 @@
 ---
 title: "Testing gRPC Services: Contract-First API Testing Beyond REST"
-date: 0000-00-00
+date: 2026-07-19
 summary: "Most API testing tooling and habits are built around REST — RestAssured, Postman, curl. gRPC's binary protocol and strict schema mean a lot of that tooling doesn't transfer directly, but the schema-first nature of protobuf actually makes gRPC easier to test rigorously, once you have the right setup."
 tags: [gRPC, API Testing, Protobuf, Contract Testing]
 ---
