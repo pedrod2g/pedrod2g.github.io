@@ -1,6 +1,6 @@
 ---
 title: "Reducing CI Time: Parallelization and Test Sharding Strategies"
-date: 0000-00-00
+date: 2026-07-20
 summary: "A 45-minute CI run doesn't just cost 45 minutes — it costs the context-switch every time someone waits on it, and it costs the temptation to skip tests locally because 'CI will catch it.' Sharding a suite across parallel runners is usually the single highest-leverage change to make it fast again."
 tags: [CI/CD, Test Sharding, Parallelization, Developer Experience]
 ---
